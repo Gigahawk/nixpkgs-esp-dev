@@ -296,6 +296,7 @@ rec {
 
     patches = [
       ./patches/pyclang/fix_get_call_cmd.patch
+      ./patches/pyclang/set_nix_store_includes_as_system.patch
     ];
 
     doCheck = false;
